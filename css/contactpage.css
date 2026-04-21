@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #162038;
+    color: #ededed; 
+}
+
+.header {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: #161b2e;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar{
+    background-color: transparent;
+    padding: 0px;
+    border: 0px;  
+     
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: -4.5px;
+    transition: 0.3s;
+    overflow: hidden;
+    padding: 20.5px 35px;
+    
+}
+
+.navbar a:hover {
+    color: pink;
+    border-bottom: 3px solid white;
+    padding-bottom: 17px;
+    background: black;
+}
+
+.active {
+    border-bottom: 3px solid white;
+    padding-bottom: 15px;
+}
+
+p {
+    color:white;
+}
+h1{
+    margin-top: 100px;
+    justify-content: center;
+    text-align: center;
+    font-size: 80px;
+}
+h2 {
+    text-align: center;
+    justify-self: center;
+    margin-bottom: 50px;
+    font-size: 60px;
+}
+h3 {
+    text-align: center;
+    justify-self: center;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+h3 a{
+    color:#246fdf;
+    text-decoration: none;
+    transition: 0.1s;
+}
+h3 a :hover{
+    transition: 0.1s;
+    color:#2d79ec;
+    background-color: yellow;
+    text-decoration: underline;
+
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 35px;
+    margin-bottom: 50px;
+}
+.buttons a{
+    color: #ededed;
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+    border-radius: 15px;
+    background: #2368CC;
+    background: radial-gradient(at left top, #2368CC, #103898);
+    width: 200px;
+    height: 195px;
+}
+
+
+.buttons :hover{
+    background: radial-gradient(at left top, #2d79ec, #1341ab);
+    width: 220px;
+    transition: all 0.2s;
+    height: 215px;
+    margin-top: -0.5vw;
+    border-radius: 19px;
+    font-size: 115%;
+}
+.buttons a img{
+    align-self: center;
+    width: 70%;
+    padding-top: 15px;
+    padding-bottom: 13px;
+    pointer-events: none;
+}
+.buttons a p{
+
+    align-self: center;
+    text-align: center;
+    font-size: 140%;
+    font-weight: 700;
+    overflow: hidden;
+    margin-top: -10px;
+    pointer-events: none;
+
+}
